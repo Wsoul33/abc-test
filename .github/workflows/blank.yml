@@ -2,7 +2,7 @@ name: Hello kitty
 on: workflow_dispatch
 jobs:
   Hello:
-    runs_on: ubuntu-22.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Kitty
         run: echo "Hello Kits"
